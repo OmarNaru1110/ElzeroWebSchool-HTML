@@ -1,0 +1,4 @@
+link to web page
+link to email address
+link to element in the same page using id
+link to html file that exists on my local machine

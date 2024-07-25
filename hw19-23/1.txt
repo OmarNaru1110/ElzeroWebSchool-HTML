@@ -1,0 +1,17 @@
+ما هي العناصر الموجودة في اللغة من العناصر الآتية؟
+
+Header true
+Nav true
+Main true
+Aside true
+Picture no
+Figure yes
+Footer yes
+FigCaption yes
+Section yes
+Command no
+Ruby no
+Data no
+Article yes
+Install no
+Text no

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <form>
+            <input name="token" hidden type="text" value="b92f1fc2fce391ad7af633723afd3055">
+
+            <div>
+                <label >Email</label>
+                <input name="email" readonly type="email" value="o@o.com">
+            </div>
+            <br>
+            <div>
+                <label >Username</label>
+                <input name="username" autofocus type="text" minlength="5" maxlength="20">
+            </div>
+            <hr>
+            <div>
+                <input checked id="cpp" type="checkbox" name="skills" value="c++">
+                <label for="cpp">c++</label>
+                <br>
+                <input id="jv" type="checkbox" name="skills" value="java">
+                <label for="jv">java</label>
+                <br>
+                <input id="py" type="checkbox" name="skills" value="python">
+                <label for="py" >python</label>
+            </div>
+            <hr>
+            <div>
+                <input checked id="fe" type="radio" name="job" value="fronend">
+                <label for="fe">Front-End Developer</label>
+                <br>
+                <input id="be" type="radio" name="job" value="backend">
+                <label for="be">Back-End Developer</label>
+                <br>
+                <input id="pm" type="radio" name="job" value="projectmanagement">
+                <label for="pm" >Project Manager</label>
+            </div>
+            <hr>
+            <label for="version">Choose Language Version: </label>
+            <select name="lan_ver" id="version">
+                <optgroup label="php">
+                    <option value="1">v1</option>
+                    <option value="2">v2</option>
+                    <option value="3">v3</option>
+                    <option value="4">v4</option>
+                    <option value="5">v5</option>
+                    <option value="6">v6</option>
+                </optgroup>
+                <optgroup label="python">
+                    <option value="4">v4</option>
+                    <option value="5">v5</option>
+                    <option value="6">v6</option>
+                </optgroup>
+            </select>
+            <hr>
+            <textarea name="brief" placeholder="Write Here Why You Want To Learn Programming"></textarea>
+            <hr>
+            <input type="reset" value="Empty"> <input type="submit" value="Send">
+        </form>
+    </body>
+    </body>
+</html>
